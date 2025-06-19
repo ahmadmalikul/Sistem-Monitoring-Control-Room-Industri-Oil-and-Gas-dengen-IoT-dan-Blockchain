@@ -1,0 +1,84 @@
+[
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "deviceId",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "int64",
+          "name": "temperature",
+          "type": "int64"
+        },
+        {
+          "indexed": false,
+          "internalType": "int64",
+          "name": "humidity",
+          "type": "int64"
+        }
+      ],
+      "name": "DataRecorded",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "readingsByDevice",
+      "outputs": [
+        {
+          "internalType": "int64",
+          "name": "temperature",
+          "type": "int64"
+        },
+        {
+          "internalType": "int64",
+          "name": "humidity",
+          "type": "int64"
+        },
+        {
+          "internalType": "uint256",
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "deviceId",
+          "type": "string"
+        },
+        {
+          "internalType": "int64",
+          "name": "_temperature",
+          "type": "int64"
+        },
+        {
+          "internalType": "int64",
+          "name": "_humidity",
+          "type": "int64"
+        }
+      ],
+      "name": "recordData",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]

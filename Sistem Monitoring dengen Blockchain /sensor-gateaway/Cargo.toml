@@ -1,0 +1,20 @@
+[package]
+name = "sensor-gateaway"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+ethers = "2.0"
+influxdb2 = "0.3.0"
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+futures = "0.3.31"
+dotenv = "0.15.0"
+regex = "1.10"
+tokio-serial = "5.4"
+tokio-modbus = "0.9"
+futures-util = "0.3.31"

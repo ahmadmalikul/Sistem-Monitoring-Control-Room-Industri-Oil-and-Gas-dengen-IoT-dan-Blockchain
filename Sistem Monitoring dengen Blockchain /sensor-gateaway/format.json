@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-06-18T18:40:40+00:00",
+  "sensor_id": "device-01",
+  "location": "Gudang Fermentasi 1",
+  "process_stage": "Fermentasi",
+  "temperature_celsius": 29.0,
+  "humidity_percent": 70.4
+}

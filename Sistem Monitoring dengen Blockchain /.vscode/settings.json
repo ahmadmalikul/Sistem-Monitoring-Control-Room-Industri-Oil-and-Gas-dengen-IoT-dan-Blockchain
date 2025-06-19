@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "/usr/bin/python3",
+  "python.analysis.extraPaths": ["./"],
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.autoSearchPaths": true,
+  "python.terminal.activateEnvironment": true
+}

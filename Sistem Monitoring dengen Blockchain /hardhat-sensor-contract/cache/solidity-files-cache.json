@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/adam/Documents/ISI_AAM/hardhat-sensor-contract/contracts/DataRegistry.sol": {
+      "lastModificationDate": 1749661838075,
+      "contentHash": "c9ac7fd90e0ea8981abbb373e06bcdf8",
+      "sourceName": "contracts/DataRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "DataRegistry"
+      ]
+    }
+  }
+}
