@@ -46,24 +46,43 @@ Tambahkan repository dan install:
 
 # Cara Jalankan Sistem Blok Chain
 -- buka terminal di folder hardhat-sensor-contarct
+
 dan jalankan
+
 - npx hardhat node
+
 untuk mendapatkan privat key
+
 -- tambah terminal lagi di folder yang sama 
+
  dan jalankan 
+
 - npx hardhat run scripts/deploy.js --network localhost
+
  untuk mendeploy privat key menjadi smart contacrt
+
 -- tambah terminal lagi di folder sensor-gateaway
+
  dan jalankan
+
 - cargo run
+
  untuk menjalankan program sensor sht20 dan akan mengirim ke TCP server, InfluxDB, dan ke server Etherium
+
 -- tambah terminal lagi di folder frontend-dapp
+
  dan jalankan 
+
 - npm start
+
  setelah ada pilihan (y/n) ketik y
+
 -- tambah terminal lagi di folder qtbaru
+
  dan jalankan
+
 - python3 tcp_sensor_chart.py
+
  untuk melihat dashboard gui nya 
 ## Jalankan InfluxDB:
 - sudo systemctl enable influxdb
@@ -73,5 +92,6 @@ untuk mendapatkan privat key
 - sudo systemctl enable grafana-server
 - sudo systemctl start grafana-server
  atau buka di : http://localhost:3000
- Default login: admin / admin
+
+Default login: admin / admin
 
