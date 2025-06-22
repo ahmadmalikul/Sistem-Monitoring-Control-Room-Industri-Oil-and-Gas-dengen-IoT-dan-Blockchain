@@ -6,6 +6,7 @@ Panduan ini menjelaskan **langkah lengkap instalasi** **dan** **menjalankan sist
 - Node.js + npm (JavaScript Ecosystem)/ WEB3
 - Rust (System Programming Language)
 - pyQT5 (dashboard QT)
+- Sensor SHT20 (sensor yang akan digunakan untuk monitoring ini)
 ---
 ## 📦 1. Install Node.js dan npm
 Node.js dan npm dibutuhkan untuk menjalankan Hardhat dan tool berbasis JavaScript lainnya.
